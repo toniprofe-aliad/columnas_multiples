@@ -1,0 +1,26 @@
+/* Columnas Múltiples */
+main{
+    column-count: 3;
+    /* column-gap: 20px; */
+    column-rule: 2px dashed blue;
+    /* height: 70vh; */
+
+    /* solo funciona con altura de la caja */
+    /* column-fill: auto; */
+}
+h3{
+    column-span: all;
+    background-color: rgb(188, 20, 20);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+p::first-letter{
+    font-size: 3rem;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    background-color:yellow;
+}
